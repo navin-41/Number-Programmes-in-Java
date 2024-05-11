@@ -6,7 +6,7 @@ public class Nump {
 	static Scanner sc = new Scanner(System.in);
 
 	public void spy(int a) {
-		System.out.println("Enter the Spy NUmber to End :");
+		System.out.println("Enter the Spy Number to End :");
 		int n = sc.nextInt();
 		System.out.println("Spy Numbers From " + a + " to " + n);
 		for (int i = a; i <= n; i++) {
