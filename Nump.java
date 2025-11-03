@@ -13,7 +13,7 @@ public class Nump {
 			a = i;
 			int s = 0;
 			int p = 1;
-			while (a == 0) {
+			while (a != 0) {
 				int l = a % 10;
 				s += l;
 				p *= l;
@@ -175,4 +175,5 @@ public class Nump {
 		U5.arm(sc.nextInt());
 	}
 }
+
 
